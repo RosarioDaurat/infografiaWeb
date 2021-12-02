@@ -432,7 +432,7 @@ function Transicionar(){
       count = count += 0;
   }
 
-  if(transicion >= 0 && transicion <= 3 ){
+  if(transicion >= -3 && transicion <= 3 ){
     cambiarPantalla = false;
    transicion = 4;
  }
